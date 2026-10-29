@@ -5,7 +5,7 @@
 
 Структура проекта
 - `Dockerfile` — сборка rootless-образа с зафиксированными зависимостями (pinned dependencies).
-- `scripts/download_model.sh` — скрипт кэширования модели (вызывается в `initContainer`).
+- `scripts/download_model.sh` — скрипт кэширования модели.
 - `scripts/logging_config.json` — кастомная конфигурация логирования vLLM (скрывает промпты и ответы).
 - `k8s/base/` — набор манифестов (Namespace, PVC, Secret, ConfigMap, Deployment, Service) для деплоя.
 
