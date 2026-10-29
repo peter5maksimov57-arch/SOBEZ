@@ -1,0 +1,4 @@
+--extra-index-url https://wheels.vllm.ai/0.27.0/cpu
+vllm==0.27.0
+transformers==5.5.3
+huggingface-hub==0.36.0
